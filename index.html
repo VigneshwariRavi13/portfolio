@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="header">
+      <div class="logo">Portfolio.</div>
+      <i class="fa-solid fa-bars"  id="menu-icon"></i>
+      <ul class="navbar">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<!--home page-->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h3>Hii, I'm <span>Vigneshwari Ravi</span></h3>
+      <h1>Frontend Developer</h1>
+      <div class="social-icons">
+        <a href="mailto:vigneshwarir13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/VigneshwariRavi13/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vigneshwari-ravi-785531328/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/asha_ravi13/"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="./images/Vigneshwari Ravi (3).pdf" download class="btn">Download CV</a>
+    </div>
+    <div class="hero-image">
+      <img src="./images/profile photo.jpeg" alt="Vigneshwari Ravi">
+    </div>
+  </section>
+<!--about page-->
+<section class="about" id="about">
+   <div class="hero-image">
+      <img src="./images/profile photo.jpeg" alt="Vigneshwari Ravi">
+   </div>
+<div class="about-text">
+   <h2 class="heading">About <span>Me</span></h2>
+   <p>Detail-oriented Frontend Developer with expertise in HTML, CSS, JavaScript, and React, dedicated to building engaging, responsive, and high-performance web applications. Skilled in modern CSS frameworks like Bootstrap and Tailwind CSS, ensuring seamless user experiences across all devices.
+      </p>
+      <div  class="about-info">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links"  onclick="opentab('education')">Education</p>
+<p class="tab-links"  onclick="opentab('certification')">Certification</p>
+ </div>
+<div class="tab-contents active-tab" id="skills">
+  <ul>
+    <li><span>Languages</span><br>HTML5, CSS3, JavaScript, Java</li>
+     <li><span>frameworks/Libraries</span><br>React.js, Bootstrap5</li>
+      <li><span>Design</span><br>Responsive Design,UX/UI Principles</li>
+       <li><span>Tools</span><br>Git, VS Code</li>
+        <li><span>Version Control</span><br>Git, GitHub</li>
+  </ul>
+</div>
+<div class="tab-contents" id="education">
+  <ul>
+     <li><span>UnderGraduate</span><br>Ponnaiyah Ramajayam Institute Of Science & Technology, Thanjavur<br>B.Tech CSE(2022)<br>Percentage: 89%</li>
+        <li><span>HSC</span><br>Sri Bharathidasan Matriculation Higher Secondary School, Mannargudi<br>March-2018<br>Percentage: 73%</li>
+         <li><span>SSLC</span><br>Sri Bharathidasan Matriculation Higher Secondary School, Mannargudi<br>March-2016<br>Percentage: 84%</li>
+      </ul>
+</div>
+<div class="tab-contents" id="certification">
+  <ul>
+<li><span>FrontEnd Development(July 2024-Dec 2024)</span><br>Login 360, Velachery</li>
+</ul>
+</div>
+   </div>
+</section>
+<!--Project Page-->
+<section class="project" id="project">
+<h2 class="heading">Latest<span>Project</span></h2>
+<div class="project-container">
+<div class="project-box">
+    <img src="./images/img3.jpg" alt="project1">
+    <div class="project-layer">
+    <h4>Foodie-Food Delivery Application(React.js)</h4>
+    <p>The Food Delivery App is a responsive web application designed to simplify the process of ordering food from various restaurants.Users can browse menus, add items to their cart, and place orders
+seamlessly.</p>
+<a href="https://github.com/VigneshwariRavi13/foodwebsite"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</div>
+</div>
+<div class="project-box">
+    <img src="./images/img4.jpg" alt="project2">
+    <div class="project-layer">
+    <h4>Library Time-BookReading website(HTML5,CSS3)</h4>
+    <p>The Bookseller Website is a simple, static website designed to showcase and sell books online. The design is responsive, ensuring a
+seamless experience across devices</p>
+<a href="https://github.com/VigneshwariRavi13/Bookweb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</div>
+</div>
+</div>
+</section>
+<!--Contact Page-->
+<section class="contact" id="contact">
+  <div class="contact-left">
+  <h1 class="sub-title">Contact Me</h1>
+  <p><i class="fa-solid fa-envelope"></i>vigneshwarir13@gmail.com</p>
+  <p><i class="fa-brands fa-whatsapp"></i>+91 6385842716</p>
+  <p><i class="fa-solid fa-location-dot"></i>2/199, Middle street, Sundarakkottai, Mannargudi taluk, Thiruvarur district-614016</p>
+  <div class="social-icons">
+     <a href="mailto:vigneshwarir13@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/VigneshwariRavi13/"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vigneshwari-ravi-785531328/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/asha_ravi13/"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  <a href="./images/Vigneshwari Ravi (3).pdf" download class="btn">Download CV</a>
+</div>
+<div class="contact-right">
+    <form>
+      <input type="text" name="Name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+      <a href="" class="btn">Submit</a>  
+     </form>
+</div>
+</section>
+
+<!-----------------Scroll Reveal------------------>
+<script src="https://unpkg.com/scrollreveal"></script>
+<!------------custom JS-------------->
+<script src="script.js"></script>
+</body>
+</html>
