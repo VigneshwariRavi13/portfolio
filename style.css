@@ -433,7 +433,7 @@ form input, form textarea{
     width: 100%;
   }
 }
-@media (max-width: 365px){
+@media (max-width: 400px){
    .hero{
     margin-top: 50px;
   }
