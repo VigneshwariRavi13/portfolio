@@ -437,6 +437,9 @@ form input, form textarea{
   section{
     width: 100%;
   }
+  .hero{
+    width: 100%;
+  }
   header{
     width: 100%;
   }
@@ -477,7 +480,9 @@ form input, form textarea{
   section{
     width: 100%;
   }
-
+  .hero{
+    width: 100%;
+  }
   header{
     width: 100%;
   }
